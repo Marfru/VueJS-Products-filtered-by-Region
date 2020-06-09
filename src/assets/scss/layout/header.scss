@@ -1,0 +1,12 @@
+.lq-header {
+  &__title {
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: $fontSizeTitle;
+
+    @media (max-width: $desktop-md) {
+      margin: 1em;
+    }
+  }
+}

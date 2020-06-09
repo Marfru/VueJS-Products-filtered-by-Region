@@ -1,0 +1,73 @@
+$containerFull: 960px;
+
+// --- Font values --- //
+
+$fontSizeTitle: 50px;
+$fontSizeBig: 36px;
+$fontSizeMedium: 18px;
+$fontSizeSmall: 14px;
+$fontSizeArticleTitle: 55px;
+
+// --- Margins and Paddings --- //
+
+$paddingLeft: 36px;
+$paddingRight: 36px;
+$paddingBottom: 36px;
+
+// --- Images --- //
+
+$minWidthImage: 160px;
+$maxWidthImage: 205px;
+
+// --- Product card/item content --- //
+
+$heightCard: 544px;
+$heightTastingNotes: 60px;
+$heightSeparator: 4px;
+
+// --- Devices --- //
+
+$desktop-lg: 1200px;
+$desktop-md: 1024px;
+$desktop-sm: 900px;
+$laptop: 768px;
+$tablet: 600px;
+$phone-lg: 480px;
+$phone-sm: 300px; 
+
+// --- Colors --- //
+
+$white: #fff;
+$black: #000;
+$grey: #5d5d5d;
+$greyCard: #323332;
+$darkGreyCard: #0c0d0d;
+$greyButtonText: #5c5c5c;
+$greyButtonBorder: #cccaca;
+$activeButtonBackground: #f7f7f7;
+$activeButtonBorder: #8a8a8a;
+
+
+// Islands
+$red: rgba(215, 30, 68, 1);
+$darkRed: rgba(128, 27, 52, 1);
+
+// Islay
+$violet: rgba(165, 35, 142, 1);
+$darkViolet: rgba(110, 38, 113, 1);
+
+// Highlands
+$purple: rgba(86, 52, 148, 1);
+$darkPurple: rgba(50, 39, 115, 1);
+
+// Lowlands
+$blue: rgba(6, 99, 174, 1);
+$darkBlue: rgba(23, 66, 114, 1);
+
+// Speyside
+$green: rgba(26, 180, 103, 1);
+$darkGreen: rgba(0, 123, 70, 1);
+
+// Campbeltown
+$yellow: rgba(243, 180, 27, 1);
+$darkYellow: rgba(210, 157, 42, 1);

@@ -1,0 +1,44 @@
+.lq-footer {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  background: url('../../img/whiskey-glass.jpg');
+  background-size:  cover;                    
+  background-repeat:  no-repeat;
+  background-position:  center center;    
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  @media (max-width: $desktop-md) {
+    width: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  &__link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 8em;
+    width: 50%;
+    margin-bottom: 4em;
+
+    h2 {
+      color: $white;
+      text-transform: uppercase;
+      font-style: italic;
+      height: auto;
+      font-size: $fontSizeArticleTitle;
+      margin-bottom: 0;
+    }
+    p { 
+      color: $white;
+      font-size: 16px;
+    }
+  }
+}

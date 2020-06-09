@@ -1,0 +1,28 @@
+.lq-button {
+  background-color: $white;
+  padding: .75em 1.5em;
+  border-radius: 23px;
+  border: 1px solid $greyButtonBorder;
+  color: $greyButtonText;
+  outline: none; // I know this isn't good for accessibility. But for the sake of design and this technical test only, it's disabled.
+  cursor: pointer;
+  
+  @media (max-width: $desktop-md) {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  &:not(:first-child) {
+    margin-left: .75em;
+
+    @media (max-width: $desktop-md) {
+      margin-left: auto;
+      margin-top: 1.5em;
+    }
+  }
+  &--active {
+    color: $black;
+    background-color: $activeButtonBackground;
+    border: 1px solid $activeButtonBorder;
+  }
+}

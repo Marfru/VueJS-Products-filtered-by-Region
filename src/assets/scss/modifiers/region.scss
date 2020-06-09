@@ -1,0 +1,20 @@
+.lq-region {
+  &--islands {
+    background: linear-gradient(to right, $red 0%, $darkRed 70%);
+  }
+  &--islay {
+    background: linear-gradient(to right, $violet 0%, $darkViolet 70%);
+  }
+  &--highlands {
+    background: linear-gradient(to right, $purple 0%, $darkPurple 70%);
+  }
+  &--lowlands {
+    background: linear-gradient(to right, $blue 0%, $darkBlue 70%);
+  }
+  &--speyside {
+    background: linear-gradient(to right, $green 0%, $darkGreen 70%);
+  }
+  &--campbeltown {
+    background: linear-gradient(to right, $yellow 0%, $darkYellow 70%);
+  }
+}
