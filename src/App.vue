@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <lq-header/>
+    <lq-filters :SetValue="setValue"/>
+    <lq-products :region="region"/>
+    <lq-footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Filters from './components/elements/Filters.vue'
+import Products from './components/elements/Products.vue'
+import Footer from './components/Footer.vue'
+import "./assets/scss/globals/base.scss"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'lq-header': Header,
+    'lq-filters': Filters,
+    'lq-products': Products,
+    'lq-footer': Footer
+  },
+  data() {
+   return {
+     region:'all'
+   }
+  },
+
+  methods: {
+    setValue(val) {
+       this.region = val;
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
